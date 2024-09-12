@@ -1,0 +1,72 @@
+/* Ana uygulama stili */
+.App {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #4CAF50;
+  margin-bottom: 30px;
+}
+
+/* Form stili */
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Label stili */
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+/* Input stili */
+input {
+  width: 93%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+form div:last-child {
+  margin-top: 10px;
+}
